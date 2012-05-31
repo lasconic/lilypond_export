@@ -22,9 +22,9 @@
 
 
 //Switch the comment if you are on a mac
-//var lilypondProgram = "C:/Program Files/LilyPond/usr/bin/lilypond.exe";
-//var musicxml2lyProgram = "C:/Program Files/LilyPond/usr/bin/musicxml2ly.py";
-//var pdfViewerProgram = "C:/Program Files/Foxit Software/Foxit Reader/Foxit Reader.exe";
+//var lilypondProgram = "%ProgramFiles%/LilyPond/usr/bin/lilypond.exe";
+//var musicxml2lyProgram = "%ProgramFiles%/LilyPond/usr/bin/musicxml2ly.py";
+//var pdfViewerProgram = "%ProgramFiles%/Foxit Software/Foxit Reader/Foxit Reader.exe";
 
 var lilypondProgram = "/Applications/Lilypond.app/Contents/Resources/bin/lilypond";
 var musicxml2lyProgram = "/Applications/Lilypond.app/Contents/Resources/bin/musicxml2ly";
