@@ -25,6 +25,7 @@
 //var ProgramFiles = "C:\Program Files";
 //var lilypondProgram = ProgramFiles + "/LilyPond/usr/bin/lilypond.exe";
 //var musicxml2lyProgram = ProgramFiles + "/LilyPond/usr/bin/musicxml2ly.py";
+//var pdfViewerProgram = ProgramFiles + "/Foxit Software/Foxit Reader/Foxit Reader.exe";
 //var pdfViewerProgram = ProgramFiles + "/Adobe/Reader 10.0/Reader/AcroRd32.exe";
 
 var lilypondProgram = "/Applications/Lilypond.app/Contents/Resources/bin/lilypond";
