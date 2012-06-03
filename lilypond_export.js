@@ -39,6 +39,10 @@ function init()
 
 function run()
       {
+      // no score open (MuseScore 2.0+, can't happen earlier)
+      if (typeof curScore === 'undefined')
+          return;
+	      
       // temp folder for user  C:\Users\<USERNAME>\AppData\Local\Temp on windows
       var path = QDir.tempPath(); 
       var xmlfile = path + "/score.xml";
