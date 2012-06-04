@@ -37,7 +37,9 @@ function init()
       }
 
 function run()
-      {
+      {	
+      if (typeof curScore === 'undefined')
+          return;
       // temp folder for user  C:\Users\<USERNAME>\AppData\Local\Temp on windows
       var path = QDir.tempPath(); 
       var xmlfile = path + "/score.xml";
